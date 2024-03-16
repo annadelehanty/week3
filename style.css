@@ -52,6 +52,10 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+.homeButton {
+  display: block;
+  margin: 0 auto !important;
+}
 
 .button-link {
   background: var(--primary-color) !important;
@@ -110,8 +114,6 @@ p {
     display: none;
   }
   .homeButton {
-    display: block;
-    margin: 0 auto !important;
     margin-bottom: 10px !important;
   }
 }
