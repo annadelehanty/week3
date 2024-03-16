@@ -5,8 +5,7 @@
 }
 
 body {
-  margin: 60px auto;
-  max-width: 800px;
+  margin: 0 auto;
 }
 nav {
   box-shadow: var(--box-shadow);
@@ -99,4 +98,20 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width: 700px) {
+  h1 {
+    font-size: 50px !important;
+  }
+  h3 {
+    display: none;
+  }
+  .desc {
+    display: none;
+  }
+  .homeButton {
+    display: block;
+    margin: 0 auto !important;
+    margin-bottom: 10px !important;
+  }
 }
